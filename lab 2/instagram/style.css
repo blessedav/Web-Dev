@@ -121,6 +121,10 @@ input[type="submit"] {
     font-family: inherit;
 }
 
+.forgot-password:hover{
+    text-decoration: underline;
+}
+
 .forms-3 {
     font-size: 14px;
     font-family: inherit;
