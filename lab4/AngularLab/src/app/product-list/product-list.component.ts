@@ -15,7 +15,7 @@ export class ProductListComponent {
   products = [...products];
 
   shareTelegram(products: Product) {
-    const telegramUrl = `https://t.me/share/url?url=${encodeURIComponent(products.link)}`;
+    const telegramUrl = `https://t.me/share/url?url=${products.link}`;
     window.open(telegramUrl, '_blank');
   }
   
